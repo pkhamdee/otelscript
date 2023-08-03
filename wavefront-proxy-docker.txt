@@ -1,4 +1,4 @@
-docker run \
+docker run -d \
    -e WAVEFRONT_URL=https://longboard.wavefront.com/api/ \
    -e WAVEFRONT_TOKEN=xxx \
    -e JAVA_HEAP_USAGE=512m \
